@@ -1,0 +1,64 @@
+# Site
+#repository: sproogen/resume-theme
+repository: kluophysics/kluophysics.github.io
+
+# favicon: images/favicon.ico
+
+# Personal info
+name: Kai Luo
+title: Postdoctoral Research Associate
+email: kluophysics@gmail.com
+website: www.github.com/kluophysics.github.io
+
+# Social links
+twitter_username: kluophy
+github_username:  kluophysics
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: chillwildlife
+#linkedin_username: jameswgrant
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Kai Luo and I'm a postdoctoal research associate in the Quantum Theory Project at the University of Florida.
+  My research is mainly in the electronic structure theory. I have worked on a number of projects including functional development in orbital-free density functional theory,
+   time-dependent density functional theory, as well as non-equilibrium statistical mechanics.
+
+  I am most skilled in: <mark>Theory</mark> and <mark>Computational Physics</mark>.
+
+# Projects Section
+projects_title: Research Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+# more_content: | # this will include new lines to allow paragraphs
+#   Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#    - Rock climbing
+#    - Gaming
+#    - Knitting
+#    - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
