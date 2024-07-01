@@ -24,27 +24,27 @@ languages:
       main:
         - identifier: About
           name: About
-          url: /About/
+          url: about/
           weight: 10
         - identifier: People
           name: People
-          url: /People/
+          url: people/
           weight: 20  
         - identifier: Research
           name: Research
-          url: /Research/
+          url: research/
           weight: 30  
         - identifier: Teaching
           name: Teaching
-          url: /Teaching/
+          url: teaching/
           weight: 40  
         - identifier: Publications
           name: Publications
-          url: /Publications/
+          url: publications/
           weight: 50  
         - identifier: Talks
           name: Talks
-          url: /Talks/
+          url: talks/
           weight: 60
         # - identifier: Software
         #   name: Software
@@ -52,7 +52,7 @@ languages:
           weight: 70
         - identifier: Blog
           name: Blog
-          url: /Blog/
+          url: blog/
           weight: 80       
         # - identifier: Search
         #   name: Search
