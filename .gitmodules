@@ -1,3 +1,15 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/hugo-flex"]
+	path = themes/hugo-flex
+	url = https://github.com/ldeso/hugo-flex.git
+[submodule "themes/beautifulhugo"]
+	path = themes/beautifulhugo
+	url = git@github.com:halogenica/beautifulhugo.git
+[submodule "themes/LoveIt"]
+	path = themes/LoveIt
+	url = git@github.com:dillonzq/LoveIt.git
+[submodule "themes/hugo-sewing"]
+	path = themes/hugo-sewing
+	url = git@github.com:HaiyanKong/hugo-sewing.git
