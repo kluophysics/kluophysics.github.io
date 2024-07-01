@@ -1,6 +1,6 @@
 ---
 title: "Search" # in any language you want
-layout: "search" # necessary for search
+layout: "page" # necessary for search
 # url: "/archive"
 # description: "Description for Search"
 summary: "search"

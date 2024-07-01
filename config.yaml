@@ -46,9 +46,9 @@ languages:
           name: Talks
           url: /Talks/
           weight: 60
-        - identifier: Software
-          name: Software
-          url: /Software/
+        # - identifier: Software
+        #   name: Software
+        #   url: /Software/
           weight: 70
         - identifier: Blog
           name: Blog

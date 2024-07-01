@@ -4,12 +4,10 @@ title: "Research Group Members"
 
 
 ## Principal Investigators
-<!-- ![Principal Investigator](kluo_photo.jpg) -->
-<!-- <img src="./kluo_photo.jpg" alt="Principal Investigator" width="150" height="150"> -->
 {{< figure src="./kluo_photo.jpg" alt="Principal Investigator" width="150" height="200" >}}
 **Kai Luo （罗凯）**
 - Role: Lead Principal Investigator
-- Research Interests: Orbital-free density functional theory, density functional theory, reduced density matrix functional theory.
+- Research Interests: Orbital-free density functional theory, density functional theory, reduced density matrix functional theory, warm dense matter
 - Contact: kluo@njust.edu.cn
 
 
@@ -29,11 +27,17 @@ title: "Research Group Members"
 ---
 
 ## Master Students
-<img src="https://via.placeholder.com/150" alt="Master Student" width="150" height="150">
-**Charlie Brown**
-- Program: PhD in Computer Science
-- Research Area: Natural Language Processing
-- Contact: charlie.brown@example.com
+{{< figure src="./jshen_photo.png" alt="Master Students" width="150" height="200" >}}
+**Jun Shen （沈军）**
+- Year: 2022--
+- Research Area: Warm dense matter, Kubo-Greenwood conductivities
+- Contact: 
+
+{{< figure src="./wisp.jpeg" alt="Master Students" width="150" height="200" >}}
+**Tingguang Wang (王庭广）**
+- Year: 2023--
+- Research Area: Direct minimization, Reduced density matrix functional theory
+- Contact: 
 
 
 ---
@@ -42,6 +46,7 @@ title: "Research Group Members"
 
 {{< figure src="./twwang_photo.jpg" alt="Alumni" width="150" height="200" >}}
 **Tingwei Wang （王廷伟）**
+- Graduation Year: 2024 (co-supervisor: Ruifeng Lu)
 - Post-Graduation Destinations: 深圳市新凯来技术有限公司
-- Research Interests: kinetic energy density functionals
+- Research Interests: kinetic energy density functionals, orbital-free DFT
 - Contact: tabloidw@outlook.com
