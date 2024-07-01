@@ -97,7 +97,7 @@ params:
 
   mainSections:
     - posts
-    - math
+    - posts/math
     # - docs
 
 

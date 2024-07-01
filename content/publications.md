@@ -2,6 +2,8 @@
 title: "List of Publications"
 hidemeta : true
 comments : false #optional
+showToc: false
+
 date: 2024-07-01
 ---
 
