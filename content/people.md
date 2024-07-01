@@ -7,7 +7,7 @@ comments : false #optional
 
 
 ## Principal Investigators
-{{< figure src="./kluo_photo.jpg" alt="Principal Investigator" width="150" height="200" >}}
+{{< figure src="./kluo_photo.png" alt="Principal Investigator" width="150" height="200" >}}
 **Kai Luo （罗凯）**
 - Role: Lead Principal Investigator
 - Research Interests: Orbital-free density functional theory, density functional theory, reduced density matrix functional theory, warm dense matter
