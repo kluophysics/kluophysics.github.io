@@ -54,7 +54,7 @@ languages:
           weight: 70
         - identifier: Blog
           name: Blog
-          url: blog/
+          url: posts/
           weight: 80       
         # - identifier: Search
         #   name: Search
