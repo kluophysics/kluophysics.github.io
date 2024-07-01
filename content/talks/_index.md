@@ -1,4 +1,4 @@
 ---
 title: "Talks"
-type: "page"
+layout: "page"
 ---

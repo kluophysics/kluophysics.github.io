@@ -1,5 +1,5 @@
 ---
-title: "Research Group Members"
+title: "Group Members"
 ---
 
 
