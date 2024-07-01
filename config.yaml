@@ -1,5 +1,5 @@
 baseURL: "https://kluophysics.github.io/"
-title: Luo Lab
+title: Luo's Theory Lab
 paginate: 5
 theme: PaperMod
 
@@ -55,51 +55,51 @@ languages:
           url: /Blog/
           weight: 80        
 
-  zh:
-    languageName: "中文"
-    weight: 2
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-      main:
-        - identifier: About
-          name: 关于
-          url: /About/
-          weight: 10
-        - identifier: People
-          name: 人员
-          url: /People/
-          weight: 20  
-        - identifier: Research
-          name: 研究
-          url: /Research/
-          weight: 30  
-        - identifier: Teaching
-          name: 教学
-          url: /Teaching/
-          weight: 40  
-        - identifier: Publications
-          name: 文章
-          url: /Publications/
-          weight: 50  
-        - identifier: Talks
-          name: 报告
-          url: /Talks/
-          weight: 60
-        - identifier: Software
-          name: 软件
-          url: /Software/
-          weight: 70
-        - identifier: Blog
-          name: 博客
-          url: /Blog/
-          weight: 80        
+  # zh:
+  #   languageName: "中文"
+  #   weight: 2
+  #   taxonomies:
+  #     category: categories
+  #     tag: tags
+  #     series: series
+  #   menu:
+  #     main:
+  #       - identifier: About
+  #         name: 关于
+  #         url: /About/
+  #         weight: 10
+  #       - identifier: People
+  #         name: 人员
+  #         url: /People/
+  #         weight: 20  
+  #       - identifier: Research
+  #         name: 研究
+  #         url: /Research/
+  #         weight: 30  
+  #       - identifier: Teaching
+  #         name: 教学
+  #         url: /Teaching/
+  #         weight: 40  
+  #       - identifier: Publications
+  #         name: 文章
+  #         url: /Publications/
+  #         weight: 50  
+  #       - identifier: Talks
+  #         name: 报告
+  #         url: /Talks/
+  #         weight: 60
+  #       - identifier: Software
+  #         name: 软件
+  #         url: /Software/
+  #         weight: 70
+  #       - identifier: Blog
+  #         name: 博客
+  #         url: /Blog/
+  #         weight: 80        
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Luo Lab
+  title: Luo's Theory Lab
   description: "Research pages for Kai Luo plus ideas, plans, notes, thoughts, blogs, pictures..."
   keywords: [Blog, Portfolio, Research, Physics]
   author: Kai Luo
@@ -140,14 +140,14 @@ params:
     # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "Luo's Theory Lab"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: Luo Lab
+    title: Luo's Theory Lab
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -162,7 +162,13 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Welcome to Luo's Theory Lab"
-    Content: 
+    Content:  '
+    __仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。__
+     <div style="text-align: right;"> <br> --- 晋·王羲之《兰亭集序》</div>
+
+    ![欢迎](/welcome.png)'
+   
+
 
   # socialIcons:
   #   - name: x
@@ -171,6 +177,12 @@ params:
   #     url: "https://stackoverflow.com"
   #   - name: github
   #     url: "https://github.com/"
+
+  outputs:
+    home:
+      - HTML
+      # - RSS
+      - JSON # necessary for search
 
   analytics:
     google:
