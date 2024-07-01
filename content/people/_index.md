@@ -40,8 +40,8 @@ title: "Research Group Members"
 
 ## Alumni
 
-{{< figure src="./kluo_photo.jpg" alt="Alumni" width="150" height="200" >}}
+{{< figure src="./twwang_photo.jpg" alt="Alumni" width="150" height="200" >}}
 **Tingwei Wang （王廷伟）**
-- Role: 
+- Post-Graduation Destinations: 深圳市新凯来技术有限公司
 - Research Interests: kinetic energy density functionals
 - Contact: tabloidw@outlook.com
