@@ -1,17 +1,22 @@
 ---
-title: "Publications"
+title: "List of Publications"
 date: 2024-07-01
 ---
 
+[GoogleScholar](https://scholar.google.com/citations?hl=en&user=5byAayIAAAAJ) | [Web of Science](https://www.webofscience.com/wos/author/record/O-3048-2018) | [ORCID](https://orcid.org/0000-0002-3802-0029)
 
-## List of Publications
+## After Joining NJUST
 
-1. **Quantum Computing: An Overview**
-   - *Authors:* Jane Doe, John Smith
-   - *Publication Details:* Journal of Quantum Studies, 2023
-   - [PDF](/path/to/publication1.pdf) | [Link](https://example.com/pub1)
+1. *Orbital-free density functional theory: An attractive electronic structure method for large-scale first-principles simulations*
+   - Wenhui Mi, Kai Luo, SB Trickey, Michele Pavanello **Chemical Reviews** 123 (21), 12039-12104 (2023) | [bibtex](./Mi2023_ChemRev.bib) | [link](https://doi.org/10.1021/acs.chemrev.2c00758)
 
-2. **Machine Learning in Data Science**
+2. *First-principles thermal equation of state of fcc iridium*
+   - Kai Luo, Ruifeng Lu, RE Cohen **Physical Review B** 107, 014106 (2023) | [bibtex](./Luo2023_PRB.bibtex) 
+   | [link](https://doi.org/10.1103/PhysRevB.107.014106)
+
+3. *Giant bipolar unidirectional photomagnetoresistance*
+   - Yucheng Jiang, Anpeng He, Kai Luo, Jinlei Zhang, Guozhen Liu, Run Zhao, Qing Zhang, Zhuo Wang, Chen Zhao, Lin Wang, Yaping Qi, Ju Gao, Kian Ping Loh, Andrew TS Wee, Cheng-Wei Qiu **Proceedings of the National Academy of Sciences**  119 (27) e2115939119 (2023) | [bibtex](./Jiang2023_PNAS.bib) | [link](https://doi.org/10.1073/pnas.2115939119)
+<!-- 2. **Machine Learning in Data Science**
    - *Authors:* Alice Johnson, Bob Williams
    - *Publication Details:* Data Science Journal, 2022
    - [PDF](/path/to/publication2.pdf) | [Link](https://example.com/pub2)
@@ -29,6 +34,8 @@ date: 2024-07-01
 5. **Data Visualization: Tools and Techniques**
    - *Authors:* Jane Doe, Diana Prince
    - *Publication Details:* Visualization Magazine, 2019
-   - [PDF](/path/to/publication5.pdf) | [Link](https://example.com/pub5)
+   - [PDF](/path/to/publication5.pdf) | [Link](https://example.com/pub5) -->
 
 <!-- Add more publications as needed -->
+---
+## Before Joining NJUST

@@ -3,6 +3,8 @@ title: Luo's Theory Lab
 paginate: 5
 theme: PaperMod
 
+math: true 
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -58,7 +60,10 @@ languages:
         #   name: Search
         #   url: /Search/
         #   weight: 80      
-
+        # - identifier: Archive
+        #   name: Archive
+        #   url: archive/
+        #   weight: 90    
   # zh:
   #   languageName: "中文"
   #   weight: 2
@@ -120,13 +125,15 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: false #true
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  ShowToc: true
   tocopen: false
 
   mainSections:
@@ -150,18 +157,18 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true #false # needs to be explicitly set
     title: Luo's Theory Lab
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    subtitle: "__仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。__"
+    imageUrl: "images/welcome.png"
+    imageWidth: 600
+    imageHeight: 450
+    imageTitle: "Welcome!"
     buttons:
       - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+        url: posts/
+      # - name: Archive
+      #   url: archives/
 
   # home-info mode
   homeInfoParams:
@@ -185,7 +192,7 @@ params:
   outputs:
     home:
       - HTML
-      # - RSS
+      - RSS
       - JSON # necessary for search
 
   analytics:
@@ -202,7 +209,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/kluophysics/kluophysics.github.io/tree/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

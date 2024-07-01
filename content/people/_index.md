@@ -26,19 +26,21 @@ title: "Group Members"
 
 ---
 
-## Master Students
+## Graduate Students
+### Masters
 {{< figure src="./jshen_photo.png" alt="Master Students" width="150" height="200" >}}
 **Jun Shen （沈军）**
 - Year: 2022--
 - Research Area: Warm dense matter, Kubo-Greenwood conductivities
 - Contact: 
 
-{{< figure src="./wisp.jpeg" alt="Master Students" width="150" height="200" >}}
+{{< figure src="./tgwang_photo.jpg" alt="Master Students" width="150" height="200" >}}
 **Tingguang Wang (王庭广）**
 - Year: 2023--
 - Research Area: Direct minimization, Reduced density matrix functional theory
 - Contact: 
 
+### Ph.D.
 
 ---
 
