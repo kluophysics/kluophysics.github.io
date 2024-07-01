@@ -54,7 +54,7 @@ languages:
           weight: 70
         - identifier: Blog
           name: Blog
-          url: posts/
+          url: blog/
           weight: 80       
         # - identifier: Search
         #   name: Search
@@ -165,8 +165,8 @@ params:
     imageHeight: 450
     imageTitle: "Welcome!"
     buttons:
-      - name: Posts
-        url: posts/
+      - name: blog
+        url: blog/
       # - name: Archive
       #   url: archives/
 
