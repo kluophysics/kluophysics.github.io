@@ -1,5 +1,5 @@
 ---
-title : "About"
+title : "Home"
 hidemeta : true
 comments : false #optional
 ---

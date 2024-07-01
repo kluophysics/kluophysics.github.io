@@ -1,198 +1,87 @@
-baseURL: "https://kluophysics.github.io/"
+baseURL: 'https://kluophysics.github.io/'
+languageCode: en-us
 title: Luo's Theory Lab
-paginate: 5
-theme: PaperMod
-
-math: true 
-
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-
-minify:
-  disableXML: true
-  minifyOutput: true
-
-languages:
-  en:
-    languageName: "English"
-    weight: 1
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-      main:
-        - identifier: About
-          name: About
-          url: /about/
-          weight: 10
-        - identifier: People
-          name: People
-          url: /people/
-          weight: 20  
-        - identifier: Research
-          name: Research
-          url: /research/
-          weight: 30  
-        - identifier: Teaching
-          name: Teaching
-          url: /teaching/
-          weight: 40  
-        - identifier: Publications
-          name: Publications
-          url: /publications/
-          weight: 50  
-        - identifier: Talks
-          name: Talks
-          url: /talks/
-          weight: 60
-        # - identifier: Software
-        #   name: Software
-        #   url: /Software/
-          weight: 70
-        - identifier: Blog
-          name: Blog
-          url: /posts/
-          weight: 80       
-        # - identifier: Search
-        #   name: Search
-        #   url: /Search/
-        #   weight: 80      
-        # - identifier: Archive
-        #   name: Archive
-        #   url: archive/
-        #   weight: 90    
-
-params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Luo's Theory Lab
-  description: "Research pages for Kai Luo plus ideas, plans, notes, thoughts, blogs, pictures..."
-  keywords: [Blog, Portfolio, Research, Physics]
-  author: Kai Luo
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: dark # auto, dark, light
-  disableThemeToggle: false
-
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  ShowAllPagesInArchive: true
-  ShowPageNums: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false #true
-  hidemeta: false
-  hideSummary: false
-  ShowToc: true
-  tocopen: false
-
-  # mainSections:
-  #   - "blog"
-    # - "posts/math"
-    # - 
-    # - docs
-
-
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    # favicon: "<link / abs url>"
-    # favicon16x16: "<link / abs url>"
-    # favicon32x32: "<link / abs url>"
-    # apple_touch_icon: "<link / abs url>"
-    # safari_pinned_tab: "<link / abs url>"
-
-  label:
-    text: "Luo's Theory Lab"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: true #false # needs to be explicitly set
-    title: Luo's Theory Lab
-    subtitle: "__仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。__"
-    imageUrl: "images/welcome.png"
-    imageWidth: 600
-    imageHeight: 450
-    imageTitle: "Welcome!"
-    buttons:
-      - name: Blog
-        url: posts/
-      # - name: Archive
-      #   url: archives/
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Welcome to Luo's Theory Lab"
-    Content:  '
-    __仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。__
-     <div style="text-align: right;"> <br> --- 晋·王羲之《兰亭集序》</div>
-
-    ![欢迎](images/welcome.png)'
-   
-
-
-  # socialIcons:
-  #   - name: x
-  #     url: "https://x.com/"
-  #   - name: stackoverflow
-  #     url: "https://stackoverflow.com"
-  #   - name: github
-  #     url: "https://github.com/"
-
-  outputs:
-    home:
-      - HTML
-      - RSS
-      - JSON # necessary for search
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/kluophysics/kluophysics.github.io/tree/master/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
-
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
+theme: hugo-sewing
+DefaultContentLanguage: en
+footnotereturnlinkcontents: ↩
+pygmentsuseclasses: true
+staticDir:
+  - static
+disableKinds:
+  - GitInfo
+menu:
+  main:
+    - name: Home
+      url: /home/
+      weight: 1
+    - name: People
+      url: /people/
+      weight: 2
+    - name: Research
+      url: /research/
+      weight: 3
+    - name: Teaching
+      url: /teaching/
+      weight: 4
+    - name: Publications
+      url: /publications/
+      weight: 5
+    - name: Talks
+      url: /talks/
+      weight: 6
+    - name: Blog
+      url: /blog/
+      weight: 7
+    - name: Gallery
+      url: /gallery/
+      weight: 8
+    # - name: Contact
+    #   url: /contact/
+    #   weight: 9
 markup:
-  highlight:
-    noClasses: false
-    anchorLineNos: true
-    codeFences: true
-    guessSyntax: true
-    lineNos: true
-    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      linkify: false
+frontmatter:
+  lastmod:
+    - lastmod
+    - ':git'
+    - date
+    - publishDate
+params:
+  authorName: Kai Luo
+  enableTheme: true
+  enableVisitor: false
+  enableUpdated: false
+  enableMemo: false
+  enableGiscus: true
+  enableimgloop: true
+  toc: true
+  Theme:
+    url: 'https://github.com/HaiyanKong/hugo-sewing'
+    name: Hugo-Sewing
+  visitor:
+    src: ''
+  memo:
+    memos: ''
+    limit: ' '
+    creatorId: ' '
+    domId: ' '
+    twiEnv: ''
+  giscus:
+    data_repo: ''
+    data_repo_id: ''
+    data_category: Announcements
+    data_category_id: ''
+    data_mapping: pathname
+    data_strict: '0'
+    data_reactions_enabled: '1'
+    data_emit_metadata: '0'
+    data_input_position: top
+    data_theme: noborder_light
+    data_lang: en
+    crossorigin: anonymous
+permalinks:
+  blog: '/blog/:year/:month/:slug/'
