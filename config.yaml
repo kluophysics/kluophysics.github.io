@@ -95,9 +95,10 @@ params:
   ShowToc: true
   tocopen: false
 
-  mainSections:
-    - posts
-    - posts/math
+  # mainSections:
+  #   - "blog"
+    # - "posts/math"
+    # - 
     # - docs
 
 
