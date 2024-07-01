@@ -4,17 +4,12 @@ hidemeta : true
 comments : false #optional
 ---
 
-We are interested in using computer's capabilities to solve problem where the electronic interactions are important.
-This has to be done approximately due to computational bottleneck imposed by the intricate many-body fermionic character of electrons. 
-Given the accuracy of task at hand, a level of theory has to be chosen such that the task could be 
-completed before some soft deadline with resonable amount of resources.
+We are focused on leveraging computational power to solve problems where electronic interactions are crucial. Due to the computational challenges posed by the complex many-body fermionic nature of electrons, these problems must be approached approximately. The chosen level of theory must balance accuracy with the feasibility of completing the task within a reasonable timeframe and resource constraints.
 
-Therefore, our  theories at different level of accuracy ranges from the orbital-free density functional theory, 
-conventional Kohn-Sham density functional theory, to one-body reduced density matrix functional theory, or even to 
-the two-body density matrix functional theory.
+Our theoretical approaches span various levels of accuracy, including 
+- __orbital-free density functional theory__, 
+- __conventional Kohn-Sham density functional theory__, 
+- __one-body reduced density matrix functional theory__, 
+- __two-body density matrix functional theory__.
 
-The objects we are dealing with are materials built from almost all stable atoms from the periodic table. 
-The range of thermodynamic conditions can be from absolute zero up to 1,000,000,000 Kelvin in temperature 
-and from 0 GPa up to thousands of GPas in pressure. Each temperature requires stringent numerical testing to 
-converge the calculations, so theory of pseudopotentials, basis sets, k point-grids are required in our group!
-
+We work with materials composed of nearly all stable atoms from the periodic table, under a wide range of thermodynamic conditions—from absolute zero up to 1,000,000,000 Kelvin, and from 0 GPa to thousands of GPa in pressure. Each temperature requires rigorous numerical testing to ensure convergence, necessitating expertise in pseudopotentials, basis sets, and k-point grids within our group.
