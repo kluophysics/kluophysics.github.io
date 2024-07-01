@@ -96,7 +96,8 @@ params:
   tocopen: false
 
   mainSections:
-    - blog
+    - posts
+    - math
     # - docs
 
 
