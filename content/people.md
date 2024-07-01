@@ -1,5 +1,8 @@
 ---
 title: "Group Members"
+showToc: false
+hidemeta : true
+comments : false #optional
 ---
 
 

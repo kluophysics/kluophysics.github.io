@@ -13,8 +13,8 @@ Below are links to the course materials for each semester.
 
 <!-- ## Semesters -->
 
-<!-- - [Fall 2024](fall-2024/)
-- [Fall 2025](fall-2025/) -->
+- [Fall 2024](fall-2024/)
+<!-- - [Fall 2025](fall-2025/) -->
 
 <!-- - [Spring 2024](teaching/spring-2024/)
 - [Fall 2023](teaching/fall-2023/)
