@@ -121,7 +121,7 @@ params:
     enabled: true #false # needs to be explicitly set
     title: Luo's Theory Lab
     subtitle: "__仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。__"
-    imageUrl: "images/welcome.png"
+    imageUrl: "images/welcome0.png"
     imageWidth: 600
     imageHeight: 450
     imageTitle: "Welcome!"
