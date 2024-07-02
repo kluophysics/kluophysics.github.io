@@ -2,6 +2,7 @@
 title: "Teaching"
 layout: "page"
 date: 2024-07-01
+showToc: false
 ---
 
 # 数学物理方法 (Mathematical Methods in Physics)
