@@ -1,5 +1,5 @@
 baseURL: "https://kluophysics.github.io/"
-title: Luo's Theory Lab
+title:  Luo's Theory Lab
 paginate: 5
 theme: PaperMod
 
@@ -62,19 +62,19 @@ languages:
         #   weight: 80      
         # - identifier: Archive
         #   name: Archive
-        #   url: archive/
+        #   url: archives/
         #   weight: 90    
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Luo's Theory Lab
+  title: "![Alt text](./images/njust-logo.jpeg) Luo's Theory Lab"
   description: "Research pages for Kai Luo plus ideas, plans, notes, thoughts, blogs, pictures..."
   keywords: [Blog, Portfolio, Research, Physics]
   author: Kai Luo
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["./images/njust-logo.jpeg"]
   DateFormat: "January 2, 2006"
-  defaultTheme: dark # auto, dark, light
+  defaultTheme: auto # auto, dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -95,8 +95,8 @@ params:
   ShowToc: true
   tocopen: false
 
-  # mainSections:
-  #   - "blog"
+  mainSections:
+    - "blog"
     # - "posts/math"
     # - 
     # - docs
@@ -112,9 +112,11 @@ params:
     # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Luo's Theory Lab"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    # text: "Luo's Theory Lab"
+    # icon: ./static/images/njust-logo.jpeg
+    # icon: ./static/images/welcome0.png
+    # iconHeight: 35
+    # iconWidth: 35
 
   # profile-mode
   profileMode:
@@ -128,8 +130,8 @@ params:
     buttons:
       - name: Blog
         url: posts/
-      # - name: Archive
-      #   url: archives/
+      - name: Archive
+        url: archives/
 
   # home-info mode
   homeInfoParams:
