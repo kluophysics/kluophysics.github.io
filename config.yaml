@@ -121,12 +121,13 @@ params:
   # profile-mode
   profileMode:
     enabled: true #false # needs to be explicitly set
-    title: Luo's Theory Lab
-    subtitle: "__仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。__"
+    title: __仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。__
+    subtitle: "--晋·王羲之《兰亭集序》"
     imageUrl: "images/welcome0.png"
     imageWidth: 600
     imageHeight: 450
-    imageTitle: "Welcome!"
+    imageTitle: "Looking up, I see the immensity of the cosmos; bowing my head, I look at the multitude of the world. 
+The gaze flies, the heart expands, the joy of the senses can reach its peak, & indeed, this is true happiness!"
     buttons:
       - name: Blog
         url: posts/
