@@ -11,12 +11,12 @@ comments : false #optional
 **Kai Luo （罗凯）**
 - Role: Lead Principal Investigator
 - Research Interests: Orbital-free density functional theory, density functional theory, reduced density matrix functional theory, warm dense matter
-- Contact: kluo@njust.edu.cn
+- Contact: kluo[at]njust.edu.cn
 
 
 ---
 
-## Postdocs
+<!-- ## Postdocs
 <img src="https://via.placeholder.com/150" alt="Postdoc" width="150" height="150">
 **Dr. Alice Johnson**
 - Research Area: Computational Biology
@@ -25,7 +25,7 @@ comments : false #optional
 <img src="https://via.placeholder.com/150" alt="Postdoc" width="150" height="150">
 **Dr. Bob Williams**
 - Research Area: Cybersecurity
-- Contact: bob.williams@example.com
+- Contact: bob.williams@example.com -->
 
 ---
 
@@ -35,13 +35,13 @@ comments : false #optional
 **Jun Shen （沈军）**
 - Year: 2021--
 - Research Area: Warm dense matter, Kubo-Greenwood conductivities
-- Contact: 
+<!-- - Contact:  -->
 
 {{< figure src="./tgwang_photo.jpg" alt="Master Students" width="150" height="200" >}}
 **Tingguang Wang (王庭广）**
 - Year: 2022--
 - Research Area: Direct minimization, Reduced density matrix functional theory
-- Contact: 
+<!-- - Contact:  -->
 
 ### Ph.D.
 
@@ -54,4 +54,4 @@ comments : false #optional
 - Graduation Year: 2024 (co-supervisor: Ruifeng Lu)
 - Post-Graduation Destinations: 深圳市新凯来技术有限公司
 - Research Interests: kinetic energy density functionals, orbital-free DFT
-- Contact: tabloidw@outlook.com
+<!-- - Contact: tabloidw@outlook.com -->
