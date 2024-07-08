@@ -33,13 +33,13 @@ comments : false #optional
 ### Masters
 {{< figure src="./jshen_photo.png" alt="Master Students" width="150" height="200" >}}
 **Jun Shen （沈军）**
-- Year: 2022--
+- Year: 2021--
 - Research Area: Warm dense matter, Kubo-Greenwood conductivities
 - Contact: 
 
 {{< figure src="./tgwang_photo.jpg" alt="Master Students" width="150" height="200" >}}
 **Tingguang Wang (王庭广）**
-- Year: 2023--
+- Year: 2022--
 - Research Area: Direct minimization, Reduced density matrix functional theory
 - Contact: 
 
