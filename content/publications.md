@@ -75,7 +75,7 @@ You can find my publications on [GoogleScholar](https://scholar.google.com/citat
    - **Matter and Radiation at Extremes** 5 (6), 064403 (2020)
    - [[bibtex]](./Kang2020_MRE.bib) [[PDF]]()
 
-1. [Generalized hydrodynamics revisited](https://doi.org/10.1063/5.0025164)
+1. [Generalized hydrodynamics revisited](https://doi.org/10.1103/PhysRevResearch.2.023036)
    - James Dufty, Kai Luo, Jeffrey Wrighton
    - **Physical Review Research**  2 (2), 023036 (2020)
    - [[bibtex]](./Dufty2020_PRR.bib) [[PDF]]() [[Supp. PDF]](./SupMat_resub.pdf)
