@@ -82,8 +82,20 @@ Youjun Zhang<sup>\*</sup>,   **Kai Luo** <sup>\*</sup>, Mingqiang Hou<sup>\*</su
     [[bibtex]](./Luo2020_PRB.bib) [[PDF]]() [[Supp. PDF]](./LuoPRB_SuppMaterials.pdf)
 
 
+1. [A simple generalized gradient approximation for the noninteracting kinetic energy density functional](https://doi.org/10.1103/PhysRevB.98.041111),
+     **Kai Luo**<sup>&dagger;</sup>, Valentin V. Karasiev<sup>&dagger;</sup>, and Samuel B. Trickey<sup>&dagger;</sup>
+    **Physical Review B** 98, 041111(R)  (2018)
+   [[bibtex]](./Luo2018_PRB.bib) [[PDF]](./Luo2018_PRB.pdf) [[Supp. PDF]](./LKT.SuppMat.pdf)
 
+1. [Density response from kinetic theory and time-dependent density-functional theory for matter under extreme conditions](https://doi.org/10.1103/PhysRevE.98.033203),
+    James Dufty, **Kai Luo**<sup>&dagger;</sup>, and  S. B. Trickey
+      **Physical Review E**  98, 033203  (2018)
+   [[bibtex]](./Dufty2018_PRE.bib) [[PDF]](./Dufty2018_PRE.pdf)
 
+1. [Trivial constraints on orbital-free kinetic energy density functionals](https://doi.org/10.1016/j.cplett.2018.02.002)
+   **Kai Luo**<sup>&dagger;</sup>, S. B. Trickey <sup>&dagger;</sup>
+   **Chemical Physics Letters** 695, 190-193 (2018)
+    [[bibtex]](Luo2018_CPL.bib) [[PDF]](Luo2018_CPL.pdf)
 
 
 <!-- https://coderwall.com/p/hcqhja/coderwall-markdown-cheat-sheet -->
