@@ -1,0 +1,196 @@
+\documentclass[11pt]{article}
+% \documentclass{assignment}
+
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb, graphicx, multicol, array}
+\usepackage{ctex} 
+\usepackage{fancyhdr}
+\usepackage{fontspec}
+\usepackage{fourier-orns} % 
+
+% http://kuing.infinityfreeapp.com/forum.php?mod=viewthread&tid=527&i=1
+\let\oldjuhao=。
+\catcode`\。=\active
+\newcommand{。}{\ifmmode\text{\oldjuhao}\else\oldjuhao\fi}
+
+\let\olddouhao=，
+\catcode`\，=\active
+\newcommand{，}{\ifmmode\text{\olddouhao}\else\olddouhao\fi}
+
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\theoremstyle{remark}
+\newtheorem{problem}{}
+
+
+% \newenvironment{problem}[2][]{\begin{trivlist}
+% \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2}]}{\end{trivlist}}
+
+\renewcommand{\headrule}{%
+\vspace{-8pt}\hrulefill
+\raisebox{-2.0pt}{\quad\decofourleft\decotwo\decofourright\quad}\hrulefill}
+
+
+\newcommand{\duedate}{\zhdate{2024/9/23}}
+\pagestyle{fancy}
+
+% \fancyhf{}
+% \fancyhead[LE]{\nouppercase{\rightmark\hfill\leftmark}}
+% \fancyhead[RO]{\nouppercase{\leftmark\hfill\rightmark}}
+
+%... then configure it.
+\fancyhead{} % clear all header fields
+% \fancyhead[LE]{\textbf{PHYS}}
+% \fancyhead[L]{\textbf{\leftmark}}
+% \fancyhead[L]{\chaptermark{}}
+% \fancyhead[L]{\sectionmark{}}
+% \fancyhead[LR]{\textbf{\leftmark}}
+\fancyhead[L]{数学物理方法}
+\zhnumsetup{style={Traditional,Financial}}
+\fancyhead[R]{课后习题\zhnumber{1}}
+
+% \fancyhead[RO]{\textbf{\rightmark}}
+
+% \fancyhead[LO]{\textbf{Kai Luo}}
+% \fancyhead[LO]{罗凯}
+
+% \fancyhead[LE]{\nouppercase{\rightmark\hfill\leftmark}}
+% \fancyhead[RO]{\nouppercase{\leftmark\hfill\rightmark}}
+
+\fancyfoot{} % clear all footer fields
+% \fancyfoot[CE,CO]{\rightmark}
+% \fancyfoot[LO,CE]{}
+% \fancyfoot[CO,RE]{Nanjing University of Science and Technology}
+\fancyfoot[C]{\thepage}
+\fancyfoot[L]{截止日期\duedate} % clear all footer fields
+\fancyfoot[R]{任课教师:罗凯} % clear all footer fields
+
+% \fancyfoot[CE,O]{\thechapter}
+
+
+
+\begin{document}
+\renewcommand{\labelenumi}{(\arabic{enumi})}
+\renewcommand{\labelenumii}{(\arabic{enumi}.\arabic{enumii})}
+
+
+
+% \title{习题01}
+% \author{截止日期: }
+% \author{罗凯\\
+% 数学物理方法}
+% \date{截止日期:}
+% \maketitle
+ 
+% \begin{problem}{1.1}
+% 找出满足方程\[z - 2 = 3 \frac{1+ \imath t}{1-\imath t}, -\infty < t <\infty\]的所有点$z$.
+% \end{problem}
+
+% \begin{problem}{1.1}
+% 写出下列复数的实部,虚部,模和辐角.
+% \begin{enumerate}
+%   \item $1 + \imath \sqrt{3}$,
+%   \item $\frac{1-\imath}{1+\imath}$,
+%   \item $e^{z}$,
+%   \item $e^{1+\imath}$,
+%   \item $e^{\imath \varphi(x)}$, $\varphi(x)$是实数$x$的实函数.
+% \end{enumerate}
+% \end{problem}
+
+\begin{problem}
+  写出下列复数的实部,虚部,模和辐角.
+  \begin{enumerate}
+    \item $1 + \imath \sqrt{3}$,
+    \item $\frac{1-\imath}{1+\imath}$,
+    \item $e^{z}$,
+    \item $e^{1+\imath}$,
+    \item $e^{\imath \varphi(x)}$, $\varphi(x)$是实数$x$的实函数.
+  \end{enumerate}
+  \end{problem}
+
+\begin{problem}
+  证明以下规律:
+  \begin{enumerate}
+    \item 复数的加法和乘法满足结合律,即 
+    \begin{itemize}
+      \item $(z_1 + z_2 ) + z_3 = z_1 +( z_2 + z_3)$
+      \item $(z_1 \cdot z_2) \cdot z_3 = z_1 \cdot (z_2 \cdot z_3)$
+    \end{itemize}
+
+    \item 复数乘积的共轭等于复数共轭的乘积,即$(z_1 \cdot z_2)^* = z_1^* z_2^*$.
+  \end{enumerate}  
+\end{problem}
+
+\begin{problem}
+  找出复平面上满足方程\[|z - \imath a|  = \lambda | z + \imath a|, \lambda > 0,\]
+  的所有点$z = x + \imath y$.请分$\lambda$的三种情况(1) $\lambda<1$, (2) $\lambda >1$,(3) $\lambda = 1$分别绘制图形.
+\end{problem}
+
+\begin{problem}
+  若$|z|=1$, $a,b$为任意复数,试证明
+  $$
+  \left| \frac{a z + b}{\bar{b} z + \bar{a}} \right| = 1 .
+  $$
+\end{problem}
+
+\begin{problem}
+  试利用de Moivre定理来化简
+  $$
+    \sin \varphi + \sin 2\varphi + \sin 3\varphi +\cdots  \sin n \varphi .
+  $$
+\end{problem}
+
+\begin{problem}
+  求下列方程的根,并在复平面上画出它们的位置.
+  \begin{enumerate}
+    \item $z^4 + 1 = 0$,
+    \item $z^2 + 2 z \cos \lambda + 1 = 0, \quad 0 < \lambda < \pi$.
+  \end{enumerate}
+\end{problem}
+
+\begin{problem}
+验证
+$$
+\tan^{-1}(z)=\frac{\imath }{2}[\ln (1-\imath z)-\ln (1+\imath z)] .
+$$
+\end{problem}
+
+
+\begin{problem}
+  试证明极坐标下的柯西-黎曼方程
+  $$
+    \left\{\begin{array}{l}
+    \frac{\partial u}{\partial \rho}=\frac{1}{\rho} \frac{\partial v}{\partial \varphi} ,\\
+    \frac{1}{\rho} \frac{\partial u}{\partial \varphi}=-\frac{\partial v}{\partial \rho} .
+    \end{array}\right.
+  $$
+\end{problem}
+
+% \begin{problem}
+%   已知解析函数 $f(z)$  的实部 $u(x, y)$或虚部$ v(x, y)$, 求该解析函数.
+%   \begin{enumerate}
+%     \item $u = e^x \sin{y}$,
+%     \item $u = x^2 - y^2 + xy$, $f(0) = 0$.
+%   \end{enumerate}
+% \end{problem}
+
+% \begin{proof}[Solution]
+% Write a solution here
+% \begin{align*}
+% x &= y
+% \end{align*}
+% \begin{tabular}{| >{\centering\arraybackslash}m{1in} | >{\centering\arraybackslash}m{1in} | >{\centering\arraybackslash}m{1in} | >{\centering\arraybackslash}m{1in} |>{\centering\arraybackslash}m{1in} |}
+% \hline 
+%   \textbf{A} & \textbf{B} & \textbf{C} & \textbf{D} &\textbf{E} \\[8pt]
+%   \hline
+%   a & b & c & d & e \\[8pt]
+%   \hline
+%   f & g &h & i & j \\[8pt]
+%   \hline
+% \end{tabular}
+% \end{proof}
+
+\end{document}
