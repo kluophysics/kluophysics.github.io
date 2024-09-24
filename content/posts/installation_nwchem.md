@@ -40,7 +40,7 @@ export NWCHEM_MODULES="all python"
 export MRCC_METHODS=y #TRUE 
 
 #CCSDTQ can be set to request the CCSDTQ method and its derivatives to be included in the code, e.g.
-#export CCSDTQ=TRUE
+export CCSDTQ=TRUE
 
 export PYTHONVERSION=3.11
 
@@ -111,7 +111,9 @@ Source the bashrc file
 source ~/.bashrc
 ```
 
-## Test run using `scanl` xc functional
+## Test run 
+
+### DFT calculation using `scanl` xc functional
 
 Prepare an input file `dft_scanl.nw`
 ```
@@ -148,3 +150,41 @@ nwchem dft_scanl.nw > dft_scanl.out
 ```
 
 The output file is appended here [dft_scanl.out](../data/dft_scanl.out).
+
+
+### MP2 optimization and then CCSD(T) single point
+
+Input file `input.nw`:
+
+```
+start n2   
+
+geometry  
+  symmetry d2h  
+  n 0 0 0.542  
+end  
+
+basis spherical  
+  n library cc-pvtz  
+end  
+
+mp2  
+  freeze core  
+end  
+
+task mp2 optimize  
+
+ccsd  
+  freeze core  
+end  
+
+task ccsd(t)
+
+```
+
+Now I use 4 cpus `mpirun` to shorten my calculation,
+```
+mpirun -n 4 ~/Documents/repos/nwchem/bin/LINUX64/nwchem input.nw > mp2_opt.out
+```
+The output file is appended here [mp2_opt.out](../data/mp2_opt.out).
+
