@@ -64,6 +64,14 @@ languages:
         #   name: Archive
         #   url: archives/
         #   weight: 90    
+        # - identifier: Tags
+        #   name: Tags
+        #   url: tags/
+        #   weight: 100
+          # - identifier: Tags
+          # name: Tags
+          # url: tags/
+          # weight: 100
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
