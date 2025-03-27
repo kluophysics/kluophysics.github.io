@@ -111,6 +111,35 @@ Source the bashrc file
 source ~/.bashrc
 ```
 
+## Enable `libxc` 
+The proper reference given should be https://nwchemgit.github.io/Interfaces-with-External-Software.html#libxc
+Here I have installed the `libxc-devel` on Debian 12. I have also inserted
+
+```
+# include libxc in the compilation on Debian
+unset USE_LIBXC
+export LIBXC_LIB=/usr/lib/x86_64-linux-gnu
+export LIBXC_INCLUDE=/usr/include
+```
+in the `compile_setting` file.  After recompiling, 
+I checked the function names in the executable.
+```
+$ nm bin/LINUX64/nwchem | grep r2scan
+0000000000d43e60 T gen_r2scan_restricted_
+0000000000d44420 T gen_r2scan_unrestricted_
+00000000004a3930 T xc_cr2scan_
+00000000004a5080 T xc_cr2scan_d2_
+00000000004a50a0 T xc_cr2scanl_
+00000000004a7210 T xc_cr2scanl_d2_
+00000000004a2c00 T xc_xr2scan_
+00000000004a2370 T xc_xr2scan_cs_
+00000000004a2d90 T xc_xr2scan_d2_
+00000000004a3770 T xc_xr2scanl_
+00000000004a2db0 T xc_xr2scanl_cs_
+00000000004a3910 T xc_xr2scanl_d2_
+```
+This shows that `libxc` has been properly included as a library.
+
 ## Test run 
 
 ### DFT calculation using `scanl` xc functional

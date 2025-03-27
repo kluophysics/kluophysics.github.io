@@ -123,3 +123,35 @@ bin/
 ```
 
     Next, one should be able to use them.
+
+
+
+# sss   
+
+https://www.vasp.at/wiki/index.php/METAGGA
+
+
+cubic symmetry mult=3
+
+FREE ENERGIE OF THE ION-ELECTRON SYSTEM (eV)
+  ---------------------------------------------------
+  free  energy   TOTEN  =        -3.11061918 eV
+
+
+cubic symmetry mult=0
+FREE ENERGIE OF THE ION-ELECTRON SYSTEM (eV)
+  ---------------------------------------------------
+  free  energy   TOTEN  =        -3.11058965 eV
+
+
+Low symmetry mult=3
+
+    FREE ENERGIE OF THE ION-ELECTRON SYSTEM (eV)
+  ---------------------------------------------------
+  free  energy   TOTEN  =        -3.11424340 eV
+
+Low symmetry mult=0
+  FREE ENERGIE OF THE ION-ELECTRON SYSTEM (eV)
+  ---------------------------------------------------
+  free  energy   TOTEN  =        -3.11456204 eV
+
