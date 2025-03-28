@@ -13,6 +13,18 @@ You can find my publications on [GoogleScholar](https://scholar.google.com/citat
 Note: &dagger; denotes corresponding author, and \* denotes co-first author (meaning contributed equally to the work).
 
 ## After Joining NJUST
+
+1. [Direct minimization on the complex Stiefel manifold in Kohn-Sham density
+functional theory for finite and extended systems](),
+ **Kai Luo**<sup>&dagger;</sup>,  Tingguang Wang, and Xinguo Ren, **Computer Physics Communications**  xx(xx), xxx-xxx (2025) 
+ [[rebuttal](../posts/data/reply_COMPHY-D-24-00377.pdf) 
+ [[reply1]](../posts/data/reply_COMPHY-D-24-00757_R1.pdf) 
+ [[reply2]](../posts/data/reply_COMPHY-D-24-00757_R2.pdf) 
+ [[reply3]](../posts/data/reply_COMPHY-D-24-00757_R3.pdf) 
+
+
+  <!-- [[bibtex]](./Wang2024_JCTC.bib) [[PDF]]() -->
+
 1. [Semilocal Kinetic Energy Density Functionals on Atoms and Diatoms](https://doi.org/10.1021/acs.jctc.4c00532),
 Tingwei Wang,   **Kai Luo**<sup>&dagger;</sup>, and Ruifeng Lu, **Journal of Chemical Theory and Computation**  20 (12), 5176-5187 (2024) 
   [[bibtex]](./Wang2024_JCTC.bib) [[PDF]]()
