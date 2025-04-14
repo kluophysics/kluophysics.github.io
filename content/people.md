@@ -40,7 +40,7 @@ comments : false #optional
 
 {{< figure src="./jshen_photo.png" alt="Master Students" width="150" height="200" >}}
 **Jun Shen （沈军）**
-- Year: 2021--
+- Year: 2022.10--
 - Research Area: Warm dense matter, Kubo-Greenwood conductivities
 <!-- - Contact:  -->
 <!-- 
@@ -56,7 +56,7 @@ comments : false #optional
 
 {{< figure src="./wisp.jpeg" alt="Undergraduate Students" width="150" height="200" >}}
 **Jinfan Liu（刘锦繁）**
-- Year: 2024--
+- Year: 2025.1 --
 - Research Area: ABACUS graphical user interface
 
 
@@ -67,8 +67,8 @@ comments : false #optional
 ## Alumni
 Order by year
 
--  王廷伟 (2021--2024) 深圳市新凯来技术有限公司
--  王庭广 (2022-2025) 
+-  王廷伟 (2020.9--2024.6) 深圳市新凯来技术有限公司
+-  王庭广 (2022.9--2025.6) 
 
 <!-- {{< figure src="./twwang_photo.jpg" alt="Alumni" width="150" height="200" >}}
 **Tingwei Wang （王廷伟）**
