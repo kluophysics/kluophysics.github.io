@@ -1,6 +1,6 @@
 baseURL: "https://kluophysics.github.io/"
 title:  Luo's Theory Lab
-paginate: 5
+pagerSize: 5
 theme: PaperMod
 
 math: true 
@@ -60,10 +60,10 @@ languages:
         #   name: Search
         #   url: /Search/
         #   weight: 80      
-        # - identifier: Archive
-        #   name: Archive
-        #   url: archives/
-        #   weight: 90    
+        - identifier: Archive
+          name: Archive
+          url: /posts/archives/
+          weight: 90    
         # - identifier: Tags
         #   name: Tags
         #   url: tags/

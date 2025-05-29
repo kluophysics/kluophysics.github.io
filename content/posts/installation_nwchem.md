@@ -3,7 +3,7 @@ title: "Installation of NWCHEM on Debian"
 date: 2024-09-20T17:53:13+08:00
 tags: ["nwchem", "debian"]
 categories: ["blog"] 
-draft: false
+draft: true
 ---
 
 ## Installation using `gcc` and `gfortan`

@@ -3,7 +3,7 @@ title: "Installation of Perturbo on Rocky Linux with Intel oneAPI"
 date: 2024-11-20T16:13:13+08:00
 tags: ["perturbo", "Quantum Espresso", "debian"]
 categories: ["blog"] 
-draft: false
+draft: true
 ---
 
 Following the instructions  on [Perturbo](https://perturbo-code.github.io/mydoc_installation.html).

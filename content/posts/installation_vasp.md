@@ -1,5 +1,5 @@
 ---
-title: "Installation_vasp"
+title: "Installation VASP"
 date: 2024-11-11T15:23:21+08:00
 tags: ["vasp", "debian"]
 categories: ["blog"] 
@@ -122,10 +122,10 @@ bin/
 1 directory, 3 files
 ```
 
-    Next, one should be able to use them.
+Next, one should be able to use them.
 
 
-
+<!-- 
 # sss   
 
 https://www.vasp.at/wiki/index.php/METAGGA
@@ -154,4 +154,4 @@ Low symmetry mult=0
   FREE ENERGIE OF THE ION-ELECTRON SYSTEM (eV)
   ---------------------------------------------------
   free  energy   TOTEN  =        -3.11456204 eV
-
+ -->

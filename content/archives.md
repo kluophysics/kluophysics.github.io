@@ -1,6 +1,6 @@
 ---
 title: "Blog"
 layout: "archives"
-url: "/archives/"
+url: "/posts/archives/"
 summary: "archives"
 ---

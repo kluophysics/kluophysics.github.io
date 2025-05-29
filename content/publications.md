@@ -16,7 +16,8 @@ Note: &dagger; denotes corresponding author, and \* denotes co-first author (mea
 
 1. [Direct minimization on the complex Stiefel manifold in Kohn-Sham density
 functional theory for finite and extended systems](),
- **Kai Luo**<sup>&dagger;</sup>,  Tingguang Wang, and Xinguo Ren, **Computer Physics Communications**  xx(xx), xxx-xxx (2025) 
+ **Kai Luo**<sup>&dagger;</sup>,  Tingguang Wang, and Xinguo Ren, **Computer Physics Communications**  312, 109596 (2025), 
+ arXiv:2412.18807
  [[rebuttal](../posts/data/reply_COMPHY-D-24-00377.pdf) 
  [[reply1]](../posts/data/reply_COMPHY-D-24-00757_R1.pdf) 
  [[reply2]](../posts/data/reply_COMPHY-D-24-00757_R2.pdf) 

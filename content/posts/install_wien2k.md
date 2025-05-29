@@ -3,7 +3,7 @@ title: "Installation of Wien2k on Rocky Linux with Intel oneAPI"
 date: 2024-12-13T16:13:13+08:00
 tags: ["Wien2k", "eDMFT", "debian"]
 categories: ["blog"] 
-draft: false
+draft: true
 ---
 
 Following the instructions  
