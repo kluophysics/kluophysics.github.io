@@ -6,7 +6,7 @@ comments : false #optional
 ---
 
 
-## Principal Investigators
+## Principal Investigator
 {{< figure src="./kluo_photo.png" alt="Principal Investigator" width="150" height="200" >}}
 **Kai Luo （罗凯）**
 - Role:  Principal Investigator
@@ -29,18 +29,20 @@ comments : false #optional
 
 ---
 
-## Graduate
+## Group Members
 <!-- ### Masters -->
 
-{{< figure src="./wisp.jpeg" alt="Master Students" width="150" height="200" >}}
+### Graduate
+
+{{< figure src="./xylong_photo.jpg" alt="Master Students" width="150" height="200" >}}
 **Xuyang Long （龙旭扬）**
-- Year: 2024--
+- Year: 2024.09 --
 - Research Area: exchange-correlation functional, deorbitalization
 
 
 {{< figure src="./jshen_photo.png" alt="Master Students" width="150" height="200" >}}
 **Jun Shen （沈军）**
-- Year: 2022.10--
+- Year: 2022.09 --
 - Research Area: Warm dense matter, Kubo-Greenwood conductivities
 <!-- - Contact:  -->
 <!-- 
@@ -65,10 +67,14 @@ comments : false #optional
 ---
 
 ## Alumni
-Order by year
+<!-- Order by year -->
+### Graduate
 
 -  王廷伟 (2020.9--2024.6) 深圳市新凯来技术有限公司
 -  王庭广 (2022.9--2025.6) 
+  
+### Undergraduate
+
 
 <!-- {{< figure src="./twwang_photo.jpg" alt="Alumni" width="150" height="200" >}}
 **Tingwei Wang （王廷伟）**
