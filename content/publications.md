@@ -14,14 +14,21 @@ Note: &dagger; denotes corresponding author, and \* denotes co-first author (mea
 
 ## After Joining NJUST
 
+
+1. [Pressure dependence of liquid iron viscosity from machine-learning molecular dynamics
+](https://arxiv.org/abs/2506.21626),
+ **Kai Luo**<sup>&dagger;</sup>,  Xuyang Long, and R.E. Cohen, **arXiv**  arXiv:2506.21626 (2025)
+
+
 1. [Direct minimization on the complex Stiefel manifold in Kohn-Sham density
-functional theory for finite and extended systems](),
+functional theory for finite and extended systems](https://doi.org/10.1016/j.cpc.2025.109596),
  **Kai Luo**<sup>&dagger;</sup>,  Tingguang Wang, and Xinguo Ren, **Computer Physics Communications**  312, 109596 (2025), 
  arXiv:2412.18807
  [[rebuttal](../posts/data/reply_COMPHY-D-24-00377.pdf) 
  [[reply1]](../posts/data/reply_COMPHY-D-24-00757_R1.pdf) 
  [[reply2]](../posts/data/reply_COMPHY-D-24-00757_R2.pdf) 
  [[reply3]](../posts/data/reply_COMPHY-D-24-00757_R3.pdf) 
+ [[bibtex]](./Luo2025_CPC.bib) [[PDF]](./Luo2025_CPC.pdf)
 
 
   <!-- [[bibtex]](./Wang2024_JCTC.bib) [[PDF]]() -->

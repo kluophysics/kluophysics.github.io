@@ -40,10 +40,10 @@ comments : false #optional
 - Research Area: exchange-correlation functional, deorbitalization
 
 
-{{< figure src="./jshen_photo.png" alt="Master Students" width="150" height="200" >}}
+<!-- {{< figure src="./jshen_photo.png" alt="Master Students" width="150" height="200" >}}
 **Jun Shen （沈军）**
 - Year: 2022.09 --
-- Research Area: Warm dense matter, Kubo-Greenwood conductivities
+- Research Area: Warm dense matter, Kubo-Greenwood conductivities -->
 <!-- - Contact:  -->
 <!-- 
 {{< figure src="./tgwang_photo.jpg" alt="Master Students" width="150" height="200" >}}
@@ -76,6 +76,7 @@ comments : false #optional
     + 论文《基于Stiefel流形的Kohn-Sham能量泛函最小化方法研究: 有限体系与扩展体系的应用》
 - 沈军 (2022.09 -- 2025.6)
   + 论文《基于第一性原理计算氧化锌岩盐相的状态方程和电导率》
+  
 ### Undergraduate
 
 
